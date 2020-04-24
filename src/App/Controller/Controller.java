@@ -41,7 +41,7 @@ public class Controller
 
             // Load User List
             login.getUserList().setUsers(data.getUserList().getUsers());
-
+            System.out.println(data.getUserList().getUsers().get(0).getPassword());
             in.close();
         }
         catch (FileNotFoundException ex)

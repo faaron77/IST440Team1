@@ -6,6 +6,7 @@ import java.nio.charset.StandardCharsets;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.util.ArrayList;
+import static App.Controller.Shared.Logger.log;
 
 /**
  *
@@ -24,6 +25,62 @@ public class UserList implements Serializable
 //        users.add(user);
     }
 
+    public boolean newUser(String name, String password)
+    {
+        boolean upper = false;
+        boolean lower = false;
+        boolean number = false;
+        boolean special = false;
+        boolean space = false;
+        boolean valid = false;
+        char index = ' ';
+        for (int i = 0; i < password.length(); i++)
+        {
+            index = password.charAt(i);
+            if ((index == Character.toUpperCase(index))
+                    && (!Character.isWhitespace(index)))
+            {
+                upper = true;
+            }
+            if ((index == Character.toLowerCase(index))
+                    && (!Character.isWhitespace(index)))
+            {
+                lower = true;
+            }
+            if ((Character.isDigit(index))
+                    && (!Character.isWhitespace(index)))
+            {
+                number = true;
+            }
+            if ((!Character.isLetterOrDigit(index))
+                   && (!Character.isWhitespace(index)))
+            {
+                special = true;
+            }
+            if (upper && lower && number && special && !space)
+            {
+                valid = true;
+            }
+            else
+            {
+                valid = false;
+            }
+        }
+//        System.out.println("Upper is " + upper);
+//        System.out.println("Lower is " + lower);
+//        System.out.println("Digit is " + number);
+//        System.out.println("Special is " + special);
+//        System.out.println("Space is " + space);
+//        System.out.println("valid is " + valid);
+        if (valid)
+        {
+            User user = new User(name, sha256(password));
+            users.add(user);
+            log ("User " + name + " created.");
+        }
+        return (valid);
+    }
+    
     public boolean foundUser(String name, String password)
     {
         boolean found = false;

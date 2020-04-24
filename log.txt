@@ -78,3 +78,192 @@
 2020/04/24 10:49:31 User admin Authenticated
 2020/04/24 10:49:31 Updating DataCollection (Collection.ser)
 2020/04/24 10:49:31 [Model.Serialized.User@1e6f906]
+2020/04/24 11:00:21 Started
+2020/04/24 11:00:30 User admin Authenticated
+2020/04/24 11:00:30 Updating DataCollection (Collection.ser)
+2020/04/24 11:00:30 [Model.Serialized.User@1893275]
+2020/04/24 11:10:13 Started
+2020/04/24 11:10:41 Authentication Failed. User admin Not Found
+2020/04/24 11:10:47 Updating DataCollection (Collection.ser)
+2020/04/24 11:10:47 []
+2020/04/24 11:10:52 Started
+2020/04/24 11:11:00 Authentication Failed. User admin Not Found
+2020/04/24 11:12:17 Updating DataCollection (Collection.ser)
+2020/04/24 11:12:17 []
+2020/04/24 11:13:06 Started
+2020/04/24 11:15:06 Updating DataCollection (Collection.ser)
+2020/04/24 11:15:06 []
+2020/04/24 11:15:09 Started
+2020/04/24 11:16:04 Updating DataCollection (Collection.ser)
+2020/04/24 11:16:04 []
+2020/04/24 11:17:48 Started
+2020/04/24 11:23:35 Started
+2020/04/24 11:23:39 Updating DataCollection (Collection.ser)
+2020/04/24 11:23:39 []
+2020/04/24 11:23:43 Started
+2020/04/24 11:23:44 Updating DataCollection (Collection.ser)
+2020/04/24 11:23:44 []
+2020/04/24 11:23:51 Started
+2020/04/24 11:26:47 Started
+2020/04/24 11:28:06 Started
+2020/04/24 11:30:02 Started
+2020/04/24 11:30:14 Updating DataCollection (Collection.ser)
+2020/04/24 11:30:14 [Model.Serialized.User@1499aa4]
+2020/04/24 11:30:19 Authentication Failed. User admin Not Found
+2020/04/24 11:30:39 Updating DataCollection (Collection.ser)
+2020/04/24 11:30:39 [Model.Serialized.User@1499aa4]
+2020/04/24 11:30:43 Started
+2020/04/24 11:30:53 Authentication Failed. User admin Not Found
+2020/04/24 11:30:55 Updating DataCollection (Collection.ser)
+2020/04/24 11:30:55 [Model.Serialized.User@1b7fb33]
+2020/04/24 11:32:53 Started
+2020/04/24 11:33:13 Authentication Failed. User admin Not Found
+2020/04/24 11:33:16 Updating DataCollection (Collection.ser)
+2020/04/24 11:33:16 [Model.Serialized.User@84a60d]
+2020/04/24 11:34:16 Started
+2020/04/24 11:34:21 Updating DataCollection (Collection.ser)
+2020/04/24 11:34:21 [Model.Serialized.User@73af6e]
+2020/04/24 11:34:51 Started
+2020/04/24 11:34:54 Updating DataCollection (Collection.ser)
+2020/04/24 11:34:54 [Model.Serialized.User@1bf9c1b]
+2020/04/24 11:41:02 Started
+2020/04/24 11:41:07 Updating DataCollection (Collection.ser)
+2020/04/24 11:41:07 [Model.Serialized.User@2f162c]
+2020/04/24 11:42:20 Started
+2020/04/24 11:42:23 Updating DataCollection (Collection.ser)
+2020/04/24 11:42:23 [Model.Serialized.User@1bf9c1b]
+2020/04/24 11:42:38 Started
+2020/04/24 11:42:51 Updating DataCollection (Collection.ser)
+2020/04/24 11:42:51 [Model.Serialized.User@1bf9c1b]
+2020/04/24 11:46:01 Started
+2020/04/24 11:46:01 Data Collection not found
+2020/04/24 11:46:13 Updating DataCollection (Collection.ser)
+2020/04/24 11:46:13 [Model.Serialized.User@1aa6a40]
+2020/04/24 11:46:15 User admin Authenticated
+2020/04/24 11:46:15 Updating DataCollection (Collection.ser)
+2020/04/24 11:46:15 [Model.Serialized.User@1aa6a40]
+2020/04/24 11:46:39 Started
+2020/04/24 11:46:55 User admin Authenticated
+2020/04/24 11:46:55 Updating DataCollection (Collection.ser)
+2020/04/24 11:46:55 [Model.Serialized.User@1fa7282]
+2020/04/24 12:13:09 Started
+2020/04/24 12:13:28 User admin Authenticated
+2020/04/24 12:13:28 Updating DataCollection (Collection.ser)
+2020/04/24 12:13:28 [Model.Serialized.User@edf81d]
+2020/04/24 12:17:10 Started
+2020/04/24 12:17:21 User admin Authenticated
+2020/04/24 12:17:21 Updating DataCollection (Collection.ser)
+2020/04/24 12:17:21 [Model.Serialized.User@edf81d]
+2020/04/24 12:19:12 Started
+2020/04/24 12:19:25 User admin Authenticated
+2020/04/24 12:19:25 Updating DataCollection (Collection.ser)
+2020/04/24 12:19:25 [Model.Serialized.User@b38127]
+2020/04/24 12:20:53 Started
+2020/04/24 12:21:06 User admin Authenticated
+2020/04/24 12:21:06 Updating DataCollection (Collection.ser)
+2020/04/24 12:21:06 [Model.Serialized.User@3c8514]
+2020/04/24 12:21:45 Started
+2020/04/24 12:21:59 User admin Authenticated
+2020/04/24 12:21:59 Updating DataCollection (Collection.ser)
+2020/04/24 12:21:59 [Model.Serialized.User@1454201]
+2020/04/24 12:24:04 Started
+2020/04/24 12:24:13 User admin Authenticated
+2020/04/24 12:24:13 Updating DataCollection (Collection.ser)
+2020/04/24 12:24:13 [Model.Serialized.User@edf81d]
+2020/04/24 12:34:53 Started
+2020/04/24 12:35:04 User admin Authenticated
+2020/04/24 12:35:04 Updating DataCollection (Collection.ser)
+2020/04/24 12:35:04 [Model.Serialized.User@edf81d]
+2020/04/24 12:40:05 Started
+2020/04/24 12:40:16 User admin Authenticated
+2020/04/24 12:40:16 Updating DataCollection (Collection.ser)
+2020/04/24 12:40:16 [Model.Serialized.User@e3baf5]
+2020/04/24 12:43:08 Started
+2020/04/24 12:43:19 User admin Authenticated
+2020/04/24 12:43:19 Updating DataCollection (Collection.ser)
+2020/04/24 12:43:19 [Model.Serialized.User@b38127]
+2020/04/24 12:44:56 Started
+2020/04/24 12:45:04 User admin Authenticated
+2020/04/24 12:45:04 Updating DataCollection (Collection.ser)
+2020/04/24 12:45:04 [Model.Serialized.User@1e98edb]
+2020/04/24 12:45:20 Scanning C:\Users\Zeus\Desktop\TesseractTest.jpgpol.
+
+2020/04/24 12:46:20 Scanning C:\Users\Zeus\Desktop\TesseractTest.jpgspa.
+
+2020/04/24 12:48:46 Started
+2020/04/24 12:48:56 User admin Authenticated
+2020/04/24 12:48:56 Updating DataCollection (Collection.ser)
+2020/04/24 12:48:56 [Model.Serialized.User@edf81d]
+2020/04/24 12:49:08 Scanning C:\Users\Zeus\Desktop\TesseractTest.jpg. Language = eng.
+
+2020/04/24 12:49:18 Scanning C:\Users\Zeus\Desktop\TesseractTest.jpg. Language = pol.
+
+2020/04/24 12:49:26 Scanning C:\Users\Zeus\Desktop\TesseractTest.jpg. Language = spa.
+
+2020/04/24 12:51:22 Started
+2020/04/24 12:51:31 User admin Authenticated
+2020/04/24 12:51:31 Updating DataCollection (Collection.ser)
+2020/04/24 12:51:31 [Model.Serialized.User@e3baf5]
+2020/04/24 12:51:45 Scanning C:\Users\Zeus\Desktop\hola.png. Language = spa.
+
+2020/04/24 12:53:23 Started
+2020/04/24 12:53:36 User admin Authenticated
+2020/04/24 12:53:36 Updating DataCollection (Collection.ser)
+2020/04/24 12:53:36 [Model.Serialized.User@1383faa]
+2020/04/24 12:53:55 Scanning C:\Users\Zeus\Desktop\hola.png. Language = spa_old.
+
+2020/04/24 13:00:01 Started
+2020/04/24 13:00:11 User admin Authenticated
+2020/04/24 13:00:11 Updating DataCollection (Collection.ser)
+2020/04/24 13:00:11 [Model.Serialized.User@70fdc7]
+2020/04/24 13:05:31 Started
+2020/04/24 13:05:41 User admin Authenticated
+2020/04/24 13:05:41 Updating DataCollection (Collection.ser)
+2020/04/24 13:05:41 [Model.Serialized.User@edf81d]
+2020/04/24 13:06:11 Started
+2020/04/24 13:06:23 Authentication Failed. User admin Not Found
+2020/04/24 13:06:32 User admin Authenticated
+2020/04/24 13:06:32 Updating DataCollection (Collection.ser)
+2020/04/24 13:06:32 [Model.Serialized.User@ddac81]
+2020/04/24 13:06:58 Scanning C:\Users\Zeus\Desktop\TesseractTest.jpg. Language = eng.
+
+2020/04/24 13:08:30 Started
+2020/04/24 13:08:41 User admin Authenticated
+2020/04/24 13:08:41 Updating DataCollection (Collection.ser)
+2020/04/24 13:08:41 [Model.Serialized.User@70fdc7]
+2020/04/24 13:27:37 Started
+2020/04/24 13:27:49 User admin Authenticated
+2020/04/24 13:27:49 Updating DataCollection (Collection.ser)
+2020/04/24 13:27:49 [Model.Serialized.User@edf81d]
+2020/04/24 13:28:01 Scanning C:\Users\Zeus\Desktop\TesseractTest.jpg. Language = eng.
+
+2020/04/24 13:28:49 Started
+2020/04/24 13:28:58 User admin Authenticated
+2020/04/24 13:28:58 Updating DataCollection (Collection.ser)
+2020/04/24 13:28:58 [Model.Serialized.User@edf81d]
+2020/04/24 13:29:05 Scanning C:\Users\Zeus\Desktop\TesseractTest.jpg. Language = eng.
+
+2020/04/24 13:46:15 Started
+2020/04/24 13:46:25 User admin Authenticated
+2020/04/24 13:46:25 Updating DataCollection (Collection.ser)
+2020/04/24 13:46:25 [Model.Serialized.User@70fdc7]
+2020/04/24 13:46:34 Scanning C:\Users\Zeus\Desktop\TesseractTest.jpg. Language = eng.
+
+2020/04/24 13:51:18 Started
+2020/04/24 13:51:29 Authentication Failed. User admin Not Found
+2020/04/24 13:51:41 User admin Authenticated
+2020/04/24 13:51:41 Updating DataCollection (Collection.ser)
+2020/04/24 13:51:41 [Model.Serialized.User@3c8514]
+2020/04/24 13:51:50 Scanning C:\Users\Zeus\Desktop\TesseractTest.jpg. Language = eng.
+
+2020/04/24 14:17:04 Started
+2020/04/24 14:17:19 User user1 created.
+2020/04/24 14:17:19 Updating DataCollection (Collection.ser)
+2020/04/24 14:17:19 [Model.Serialized.User@1b85d4c, Model.Serialized.User@e3baf5]
+2020/04/24 14:17:21 User user1 Authenticated
+2020/04/24 14:17:21 Updating DataCollection (Collection.ser)
+2020/04/24 14:17:21 [Model.Serialized.User@1b85d4c, Model.Serialized.User@e3baf5]
+2020/04/24 14:17:27 Started
+2020/04/24 14:17:36 User user1 Authenticated
+2020/04/24 14:17:36 Updating DataCollection (Collection.ser)
+2020/04/24 14:17:36 [Model.Serialized.User@1d871c4, Model.Serialized.User@edf81d]

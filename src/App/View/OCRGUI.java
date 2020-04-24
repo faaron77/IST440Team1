@@ -36,6 +36,7 @@ public class OCRGUI extends javax.swing.JFrame
     private void initComponents()
     {
 
+        GrpLanguage = new javax.swing.ButtonGroup();
         jPanel1 = new javax.swing.JPanel();
         radEnglish = new javax.swing.JRadioButton();
         radPolish = new javax.swing.JRadioButton();
@@ -46,15 +47,40 @@ public class OCRGUI extends javax.swing.JFrame
         txtOutput = new javax.swing.JTextArea();
         btnLoad = new javax.swing.JButton();
         txtFileLoaded = new javax.swing.JTextField();
+        btnDecrypt = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
+        GrpLanguage.add(radEnglish);
         radEnglish.setSelected(true);
         radEnglish.setText("English");
+        radEnglish.addMouseListener(new java.awt.event.MouseAdapter()
+        {
+            public void mouseClicked(java.awt.event.MouseEvent evt)
+            {
+                radEnglishMouseClicked(evt);
+            }
+        });
 
+        GrpLanguage.add(radPolish);
         radPolish.setText("Polish");
+        radPolish.addMouseListener(new java.awt.event.MouseAdapter()
+        {
+            public void mouseClicked(java.awt.event.MouseEvent evt)
+            {
+                radPolishMouseClicked(evt);
+            }
+        });
 
+        GrpLanguage.add(radSpanish);
         radSpanish.setText("Spanish");
+        radSpanish.addMouseListener(new java.awt.event.MouseAdapter()
+        {
+            public void mouseClicked(java.awt.event.MouseEvent evt)
+            {
+                radSpanishMouseClicked(evt);
+            }
+        });
 
         btnScan.setText("Scan");
         btnScan.addActionListener(new java.awt.event.ActionListener()
@@ -91,16 +117,28 @@ public class OCRGUI extends javax.swing.JFrame
 
         txtFileLoaded.setEditable(false);
 
+        btnDecrypt.setText("Decrypt");
+        btnDecrypt.setToolTipText("");
+        btnDecrypt.addActionListener(new java.awt.event.ActionListener()
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt)
+            {
+                btnDecryptActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(btnScan)
-                .addGap(24, 24, 24)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                        .addComponent(btnScan)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(btnDecrypt)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(btnCancel)
                         .addGap(24, 24, 24))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
@@ -136,7 +174,8 @@ public class OCRGUI extends javax.swing.JFrame
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(btnScan)
-                    .addComponent(btnCancel))
+                    .addComponent(btnCancel)
+                    .addComponent(btnDecrypt))
                 .addGap(35, 35, 35))
         );
 
@@ -174,6 +213,26 @@ public class OCRGUI extends javax.swing.JFrame
     {//GEN-HEADEREND:event_btnScanActionPerformed
         txtOutput.setText(parentController.scan(picFile));
     }//GEN-LAST:event_btnScanActionPerformed
+
+    private void radEnglishMouseClicked(java.awt.event.MouseEvent evt)//GEN-FIRST:event_radEnglishMouseClicked
+    {//GEN-HEADEREND:event_radEnglishMouseClicked
+        parentController.setLanguage("eng");
+    }//GEN-LAST:event_radEnglishMouseClicked
+
+    private void radPolishMouseClicked(java.awt.event.MouseEvent evt)//GEN-FIRST:event_radPolishMouseClicked
+    {//GEN-HEADEREND:event_radPolishMouseClicked
+        parentController.setLanguage("pol");
+    }//GEN-LAST:event_radPolishMouseClicked
+
+    private void radSpanishMouseClicked(java.awt.event.MouseEvent evt)//GEN-FIRST:event_radSpanishMouseClicked
+    {//GEN-HEADEREND:event_radSpanishMouseClicked
+        parentController.setLanguage("spa_old");
+    }//GEN-LAST:event_radSpanishMouseClicked
+
+    private void btnDecryptActionPerformed(java.awt.event.ActionEvent evt)//GEN-FIRST:event_btnDecryptActionPerformed
+    {//GEN-HEADEREND:event_btnDecryptActionPerformed
+        parentController.Decrypt();
+    }//GEN-LAST:event_btnDecryptActionPerformed
 
     /**
      * @param args the command line arguments
@@ -225,7 +284,9 @@ public class OCRGUI extends javax.swing.JFrame
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.ButtonGroup GrpLanguage;
     private javax.swing.JButton btnCancel;
+    private javax.swing.JButton btnDecrypt;
     private javax.swing.JButton btnLoad;
     private javax.swing.JButton btnScan;
     private javax.swing.JPanel jPanel1;
@@ -335,5 +396,15 @@ public class OCRGUI extends javax.swing.JFrame
     public void setTxtFileLoaded(javax.swing.JTextField txtFileLoaded)
     {
         this.txtFileLoaded = txtFileLoaded;
+    }
+
+    public javax.swing.JButton getBtnTranslate()
+    {
+        return btnDecrypt;
+    }
+
+    public void setBtnTranslate(javax.swing.JButton BtnTranslate)
+    {
+        this.btnDecrypt = BtnTranslate;
     }
 }

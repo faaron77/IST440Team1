@@ -24,6 +24,17 @@ public class LoginController
         gui.setVisible(true);
     }
 
+        public boolean createUser(String name, String password)
+    {
+        boolean valid;
+        valid = userList.newUser(name, password);
+        if (valid)
+        {
+            parentController.updateCollection();
+        }
+        return (valid);
+    }
+        
     public void loginRequest(String name, String password)
     {
         try
