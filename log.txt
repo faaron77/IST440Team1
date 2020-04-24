@@ -1,0 +1,80 @@
+2020/04/11 02:46:07 Authentication Failed. User  Not Found
+2020/04/11 02:46:11 Updating DataCollection (Collection.ser)
+2020/04/11 02:46:11 [Model.Serialized.User@1ff0c76]
+2020/04/11 02:52:10 Started
+2020/04/11 02:52:17 User admin Authenticated
+2020/04/11 02:52:17 Updating DataCollection (Collection.ser)
+2020/04/11 02:52:17 [Model.Serialized.User@17ea957]
+2020/04/11 02:52:24 Scanning C:\Users\Zeus\Desktop\TesseractTest.jpg
+
+2020/04/11 02:54:17 Started
+2020/04/11 02:54:25 User admin Authenticated
+2020/04/11 02:54:25 Updating DataCollection (Collection.ser)
+2020/04/11 02:54:25 [Model.Serialized.User@1e6f906]
+2020/04/11 02:54:37 Scanning C:\tmp\TesseractTest2.jpg
+
+2020/04/11 02:56:23 Started
+2020/04/11 02:56:31 User admin Authenticated
+2020/04/11 02:56:31 Updating DataCollection (Collection.ser)
+2020/04/11 02:56:31 [Model.Serialized.User@1e6f906]
+2020/04/11 02:56:36 Scanning C:\Users\Zeus\Desktop\TesseractTest.jpg
+
+2020/04/11 02:57:51 Started
+2020/04/11 02:57:58 User admin Authenticated
+2020/04/11 02:57:58 Updating DataCollection (Collection.ser)
+2020/04/11 02:57:58 [Model.Serialized.User@13d5d04]
+2020/04/11 02:58:11 Scanning C:\Users\Zeus\Desktop\TesseractTest.jpg
+
+2020/04/11 03:00:11 Started
+2020/04/11 03:00:18 User admin Authenticated
+2020/04/11 03:00:18 Updating DataCollection (Collection.ser)
+2020/04/11 03:00:18 [Model.Serialized.User@1893275]
+2020/04/11 03:00:23 Scanning C:\Users\Zeus\Desktop\TesseractTest.jpg
+
+2020/04/11 03:02:23 Started
+2020/04/11 03:02:41 Updating DataCollection (Collection.ser)
+2020/04/11 03:02:41 [Model.Serialized.User@1fe38e5]
+2020/04/11 03:02:48 Started
+2020/04/11 03:02:49 Updating DataCollection (Collection.ser)
+2020/04/11 03:02:49 [Model.Serialized.User@bee90b]
+2020/04/11 03:02:53 Started
+2020/04/11 03:02:54 Updating DataCollection (Collection.ser)
+2020/04/11 03:02:54 [Model.Serialized.User@1fe38e5]
+2020/04/11 03:03:09 Started
+2020/04/11 03:03:20 User admin Authenticated
+2020/04/11 03:03:20 Updating DataCollection (Collection.ser)
+2020/04/11 03:03:20 [Model.Serialized.User@1e6f906]
+2020/04/11 03:03:36 Scanning C:\Users\Zeus\Desktop\TesseractTest.jpg
+
+2020/04/11 03:03:46 Scanning C:\Users\Zeus\Desktop\TesseractTest.jpg
+
+2020/04/11 03:03:57 Scanning C:\Users\Zeus\Desktop\TesseractTest.jpg
+
+2020/04/11 03:50:45 Started
+2020/04/11 03:50:52 User admin Authenticated
+2020/04/11 03:50:52 Updating DataCollection (Collection.ser)
+2020/04/11 03:50:52 [Model.Serialized.User@1893275]
+2020/04/11 04:04:03 Started
+2020/04/11 04:04:11 User admin Authenticated
+2020/04/11 04:04:11 Updating DataCollection (Collection.ser)
+2020/04/11 04:04:11 [Model.Serialized.User@1e6f906]
+2020/04/11 04:04:26 Started
+2020/04/11 04:04:34 User admin Authenticated
+2020/04/11 04:04:34 Updating DataCollection (Collection.ser)
+2020/04/11 04:04:34 [Model.Serialized.User@1893275]
+2020/04/11 04:06:39 Started
+2020/04/11 04:06:47 User admin Authenticated
+2020/04/11 04:06:47 Updating DataCollection (Collection.ser)
+2020/04/11 04:06:47 [Model.Serialized.User@1893275]
+2020/04/11 04:15:35 Started
+2020/04/11 04:15:43 User admin Authenticated
+2020/04/11 04:15:43 Updating DataCollection (Collection.ser)
+2020/04/11 04:15:43 [Model.Serialized.User@1893275]
+2020/04/12 10:52:25 Started
+2020/04/12 10:52:33 User admin Authenticated
+2020/04/12 10:52:33 Updating DataCollection (Collection.ser)
+2020/04/12 10:52:33 [Model.Serialized.User@1893275]
+2020/04/24 10:49:21 Started
+2020/04/24 10:49:31 User admin Authenticated
+2020/04/24 10:49:31 Updating DataCollection (Collection.ser)
+2020/04/24 10:49:31 [Model.Serialized.User@1e6f906]
