@@ -91,7 +91,7 @@ public class OCRGUI extends javax.swing.JFrame
             }
         });
 
-        btnCancel.setText("Cancel");
+        btnCancel.setText("Quit");
         btnCancel.addActionListener(new java.awt.event.ActionListener()
         {
             public void actionPerformed(java.awt.event.ActionEvent evt)

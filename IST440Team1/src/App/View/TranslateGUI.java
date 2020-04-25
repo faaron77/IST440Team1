@@ -6,6 +6,8 @@
 package App.View;
 
 import App.Controller.TranslateController;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 /**
  *
@@ -13,7 +15,7 @@ import App.Controller.TranslateController;
  */
 public class TranslateGUI extends javax.swing.JFrame
 {
-    TranslateController parentController;
+    private TranslateController parentController;
 
     /**
      * Creates new form TranslateGUI
@@ -42,6 +44,12 @@ public class TranslateGUI extends javax.swing.JFrame
 
         jPanel1 = new javax.swing.JPanel();
         btnCancel = new javax.swing.JButton();
+        jScrollPane1 = new javax.swing.JScrollPane();
+        txtInput = new javax.swing.JTextArea();
+        btnTranslate = new javax.swing.JButton();
+        txtTranslate = new javax.swing.JLabel();
+        jScrollPane2 = new javax.swing.JScrollPane();
+        txtOutput = new javax.swing.JTextArea();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -54,20 +62,69 @@ public class TranslateGUI extends javax.swing.JFrame
             }
         });
 
+        txtInput.setColumns(20);
+        txtInput.setLineWrap(true);
+        txtInput.setRows(5);
+        txtInput.setWrapStyleWord(true);
+        jScrollPane1.setViewportView(txtInput);
+
+        btnTranslate.setText("Translate");
+        btnTranslate.setToolTipText("");
+        btnTranslate.addActionListener(new java.awt.event.ActionListener()
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt)
+            {
+                btnTranslateActionPerformed(evt);
+            }
+        });
+
+        txtTranslate.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        txtTranslate.setText("Translate");
+        txtTranslate.setToolTipText("");
+
+        txtOutput.setColumns(20);
+        txtOutput.setLineWrap(true);
+        txtOutput.setRows(5);
+        txtOutput.setWrapStyleWord(true);
+        jScrollPane2.setViewportView(txtOutput);
+
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                .addContainerGap(552, Short.MAX_VALUE)
-                .addComponent(btnCancel)
-                .addGap(18, 18, 18))
+            .addGroup(jPanel1Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addComponent(txtTranslate, javax.swing.GroupLayout.PREFERRED_SIZE, 95, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addContainerGap(518, Short.MAX_VALUE))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                        .addGap(0, 0, Short.MAX_VALUE)
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                                .addComponent(btnTranslate)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(btnCancel)
+                                .addGap(18, 18, 18))
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                    .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 575, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 575, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addGap(28, 28, 28))))))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                .addContainerGap(544, Short.MAX_VALUE)
-                .addComponent(btnCancel)
+                .addGap(26, 26, 26)
+                .addComponent(txtTranslate)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 180, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(33, 33, 33)
+                .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 163, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 109, Short.MAX_VALUE)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(btnCancel)
+                    .addComponent(btnTranslate))
                 .addGap(20, 20, 20))
         );
 
@@ -89,6 +146,18 @@ public class TranslateGUI extends javax.swing.JFrame
     {//GEN-HEADEREND:event_btnCancelActionPerformed
         this.dispose();
     }//GEN-LAST:event_btnCancelActionPerformed
+
+    private void btnTranslateActionPerformed(java.awt.event.ActionEvent evt)//GEN-FIRST:event_btnTranslateActionPerformed
+    {//GEN-HEADEREND:event_btnTranslateActionPerformed
+        try
+        {
+            parentController.translate();
+        }
+        catch (Exception ex)
+        {
+            Logger.getLogger(TranslateGUI.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }//GEN-LAST:event_btnTranslateActionPerformed
 
     /**
      * @param args the command line arguments
@@ -141,6 +210,102 @@ public class TranslateGUI extends javax.swing.JFrame
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnCancel;
+    private javax.swing.JButton btnTranslate;
     private javax.swing.JPanel jPanel1;
+    private javax.swing.JScrollPane jScrollPane1;
+    private javax.swing.JScrollPane jScrollPane2;
+    private javax.swing.JTextArea txtInput;
+    private javax.swing.JTextArea txtOutput;
+    private javax.swing.JLabel txtTranslate;
     // End of variables declaration//GEN-END:variables
+
+    public TranslateController getParentController()
+    {
+        return parentController;
+    }
+
+    public void setParentController(TranslateController parentController)
+    {
+        this.parentController = parentController;
+    }
+
+    public javax.swing.JButton getBtnCancel()
+    {
+        return btnCancel;
+    }
+
+    public void setBtnCancel(javax.swing.JButton btnCancel)
+    {
+        this.btnCancel = btnCancel;
+    }
+
+    public javax.swing.JButton getBtnTranslate()
+    {
+        return btnTranslate;
+    }
+
+    public void setBtnTranslate(javax.swing.JButton btnTranslate)
+    {
+        this.btnTranslate = btnTranslate;
+    }
+
+    public javax.swing.JPanel getjPanel1()
+    {
+        return jPanel1;
+    }
+
+    public void setjPanel1(javax.swing.JPanel jPanel1)
+    {
+        this.jPanel1 = jPanel1;
+    }
+
+    public javax.swing.JScrollPane getjScrollPane1()
+    {
+        return jScrollPane1;
+    }
+
+    public void setjScrollPane1(javax.swing.JScrollPane jScrollPane1)
+    {
+        this.jScrollPane1 = jScrollPane1;
+    }
+
+    public javax.swing.JScrollPane getjScrollPane2()
+    {
+        return jScrollPane2;
+    }
+
+    public void setjScrollPane2(javax.swing.JScrollPane jScrollPane2)
+    {
+        this.jScrollPane2 = jScrollPane2;
+    }
+
+    public javax.swing.JTextArea getTxtInput()
+    {
+        return txtInput;
+    }
+
+    public void setTxtInput(javax.swing.JTextArea txtInput)
+    {
+        this.txtInput = txtInput;
+    }
+
+    public javax.swing.JTextArea getTxtOutput()
+    {
+        return txtOutput;
+    }
+
+    public void setTxtOutput(javax.swing.JTextArea txtOutput)
+    {
+        this.txtOutput = txtOutput;
+    }
+
+    public javax.swing.JLabel getTxtTranslate()
+    {
+        return txtTranslate;
+    }
+
+    public void setTxtTranslate(javax.swing.JLabel txtTranslate)
+    {
+        this.txtTranslate = txtTranslate;
+    }
 }

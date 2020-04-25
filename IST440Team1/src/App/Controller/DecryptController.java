@@ -26,7 +26,7 @@ public class DecryptController
         gui.setVisible(true);
     }
     
-    public void translate()
+    public void translate() throws Exception
     {
         TranslateController translator = new TranslateController(message, language);
         gui.dispose();
